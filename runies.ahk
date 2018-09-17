@@ -13,7 +13,7 @@ F6::
       ==============
     ), 620, 890
     SetTimer, RemoveToolTip, -5000
-    SetTimer, StartRuneTimer, -60000
+    SetTimer, StartRuneTimer, -300000
   } else {
     ToolTip, 
     (Join LTrim
@@ -38,6 +38,6 @@ StartRuneTimer:
         =============
       ), 620, 890
     SetTimer, RemoveToolTip, -30000
-    SetTimer, StartRuneTimer, -60000
+    SetTimer, StartRuneTimer, -300000
   }
 return
